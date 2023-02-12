@@ -10,11 +10,6 @@ enum Message {
 }
 
 fn main() {
-	app_loop := spawn process_app_loop()
-	app_loop.wait()
-}
-
-fn process_app_loop() {
 	mut model := Model{}
 
 	for {
@@ -35,7 +30,7 @@ fn process_app_loop() {
 			}
 		}
 
-		spawn view(model)
+		view(model)
 	}
 }
 

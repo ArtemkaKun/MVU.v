@@ -1,4 +1,5 @@
-This repo contains examples of MVU pattern (the Elm architecture), implemented in V programming language.
+This repo contains examples of MVU pattern (the Elm architecture),
+implemented in V programming language.
 The MVU is an alternative to MVC and MVVM patterns and can be used in UI, web, and game apps.
 
 The logic of the pattern is pretty simple:

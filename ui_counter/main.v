@@ -1,4 +1,4 @@
-module ui_counter
+module main
 
 import ui
 

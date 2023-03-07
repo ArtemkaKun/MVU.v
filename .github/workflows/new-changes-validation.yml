@@ -75,14 +75,14 @@ jobs:
       - name: Restore Vlang
         uses: actions/cache/restore@v3
         with:
-          path: /home/runner/work/v-project-basement/v-project-basement/vlang/
-          key: vlang-0.3.3-weekly.2023.08
+          path: /home/runner/work/MVU.v/MVU.v/vlang/
+          key: vlang-0.3.3-weekly.2023.09
           fail-on-cache-miss: true
 
       - name: Install V
         uses: vlang/setup-v@v1.3
         with:
-          version: 'weekly.2023.08'
+          version: 'weekly.2023.09'
 
       - name: Install UI module
         run: v install ui

@@ -1,3 +1,5 @@
+module cli_counter
+
 import os
 
 struct Model {

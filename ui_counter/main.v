@@ -1,3 +1,5 @@
+module ui_counter
+
 import ui
 
 [heap]

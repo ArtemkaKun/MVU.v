@@ -1,4 +1,4 @@
-module cli_counter
+module main
 
 import os
 

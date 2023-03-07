@@ -1,4 +1,4 @@
-module cli_counter
+module main
 
 fn test_update_returns_incremented_model_on_increment() {
 	model := Model{}
